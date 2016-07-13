@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		B8129FB01D35F4AC002E2B10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8129FAF1D35F4AC002E2B10 /* main.m */; };
 		B8129FB31D35F4AC002E2B10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8129FB21D35F4AC002E2B10 /* AppDelegate.m */; };
-		B8129FB61D35F4AC002E2B10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8129FB51D35F4AC002E2B10 /* ViewController.m */; };
 		B8129FB91D35F4AC002E2B10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8129FB71D35F4AC002E2B10 /* Main.storyboard */; };
 		B8129FBB1D35F4AC002E2B10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8129FBA1D35F4AC002E2B10 /* Assets.xcassets */; };
 		B8129FBE1D35F4AC002E2B10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8129FBC1D35F4AC002E2B10 /* LaunchScreen.storyboard */; };
+		B8129FC71D35F520002E2B10 /* DEMOTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8129FC61D35F520002E2B10 /* DEMOTableViewController.m */; };
+		B812A0811D3620C5002E2B10 /* libADPFile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B812A07F1D3620C5002E2B10 /* libADPFile.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		B8129FAF1D35F4AC002E2B10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8129FB11D35F4AC002E2B10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8129FB21D35F4AC002E2B10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B8129FB41D35F4AC002E2B10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B8129FB51D35F4AC002E2B10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B8129FB81D35F4AC002E2B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8129FBA1D35F4AC002E2B10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8129FBD1D35F4AC002E2B10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8129FBF1D35F4AC002E2B10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8129FC51D35F520002E2B10 /* DEMOTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOTableViewController.h; sourceTree = "<group>"; };
+		B8129FC61D35F520002E2B10 /* DEMOTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOTableViewController.m; sourceTree = "<group>"; };
+		B812A07F1D3620C5002E2B10 /* libADPFile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libADPFile.a; sourceTree = "<group>"; };
+		B812A0801D3620C5002E2B10 /* UITableView+ADPDragTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ADPDragTV.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B812A0811D3620C5002E2B10 /* libADPFile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,10 +62,11 @@
 		B8129FAD1D35F4AC002E2B10 /* ADPDragTableVIewExample */ = {
 			isa = PBXGroup;
 			children = (
+				B812A07E1D3620C5002E2B10 /* ADPDragTV */,
 				B8129FB11D35F4AC002E2B10 /* AppDelegate.h */,
 				B8129FB21D35F4AC002E2B10 /* AppDelegate.m */,
-				B8129FB41D35F4AC002E2B10 /* ViewController.h */,
-				B8129FB51D35F4AC002E2B10 /* ViewController.m */,
+				B8129FC51D35F520002E2B10 /* DEMOTableViewController.h */,
+				B8129FC61D35F520002E2B10 /* DEMOTableViewController.m */,
 				B8129FB71D35F4AC002E2B10 /* Main.storyboard */,
 				B8129FBA1D35F4AC002E2B10 /* Assets.xcassets */,
 				B8129FBC1D35F4AC002E2B10 /* LaunchScreen.storyboard */,
@@ -77,6 +82,15 @@
 				B8129FAF1D35F4AC002E2B10 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B812A07E1D3620C5002E2B10 /* ADPDragTV */ = {
+			isa = PBXGroup;
+			children = (
+				B812A07F1D3620C5002E2B10 /* libADPFile.a */,
+				B812A0801D3620C5002E2B10 /* UITableView+ADPDragTV.h */,
+			);
+			path = ADPDragTV;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8129FB61D35F4AC002E2B10 /* ViewController.m in Sources */,
 				B8129FB31D35F4AC002E2B10 /* AppDelegate.m in Sources */,
+				B8129FC71D35F520002E2B10 /* DEMOTableViewController.m in Sources */,
 				B8129FB01D35F4AC002E2B10 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +281,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ADPDragTableVIewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ADPDragTableVIewExample/ADPDragTV",
+					"$(PROJECT_DIR)/ADPDragTableVIewExample/libFuck",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Adapter.ADPDragTableVIewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -278,6 +298,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ADPDragTableVIewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ADPDragTableVIewExample/ADPDragTV",
+					"$(PROJECT_DIR)/ADPDragTableVIewExample/libFuck",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Adapter.ADPDragTableVIewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -302,6 +328,7 @@
 				B8129FC41D35F4AC002E2B10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

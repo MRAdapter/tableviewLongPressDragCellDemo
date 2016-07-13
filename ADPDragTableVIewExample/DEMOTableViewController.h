@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DEMOTableViewController.h
 //  ADPDragTableVIewExample
 //
 //  Created by wxt on 16/7/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DEMOTableViewController : UITableViewController
 
 @end
-
